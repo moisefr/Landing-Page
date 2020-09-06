@@ -1,111 +1,118 @@
 <!DOCTYPE html>
-<html>
-    <head>
-           
-    </head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      Landing Page
+    </title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <style>
-        /* Navbar container */
-        .navbar {
-          overflow: hidden;
-          background-color: #333;
-          font-family: Arial;
-        }
-
-        /* Links inside the navbar */
-        .navbar a {
-          float: left;
-          font-size: 16px;
-          color: white;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-        }
-
-        /* The dropdown container */
-        .dropdown {
-          float: left;
-          overflow: hidden;
-        }
-
-        /* Dropdown button */
-        .dropdown .dropbtn {
-          font-size: 16px;
-          border: none;
-          outline: none;
-          color: white;
-          padding: 14px 16px;
-          background-color: inherit;
-          font-family: inherit; /* Important for vertical align on mobile phones */
-          margin: 0; /* Important for vertical align on mobile phones */
-        }
-
-        /* Add a red background color to navbar links on hover */
-        .navbar a:hover, .dropdown:hover .dropbtn {
-          background-color: red;
-        }
-
-        /* Dropdown content (hidden by default) */
-        .dropdown-content {
-          display: none;
-          position: absolute;
-          background-color: #f9f9f9;
-          min-width: 160px;
-          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-          z-index: 1;
-        }
-
-        /* Links inside the dropdown */
-        .dropdown-content a {
-          float: none;
-          color: black;
-          padding: 12px 16px;
-          text-decoration: none;
-          display: block;
-          text-align: left;
-        }
-
-        /* Add a grey background color to dropdown links on hover */
-        .dropdown-content a:hover {
-          background-color: #ddd;
-        }
-
-        /* Show the dropdown menu on hover */
-        .dropdown:hover .dropdown-content {
-          display: block;
-        }
-        .Welcome{
-            text-align: center;
-        }
+      
     </style>
-    <body>
-        <div class="navbar">
-          <a href="#home">Home</a>
-          <a href="#news">Blog??</a>
-          <div class="dropdown">
-            <button class="dropbtn">Self Thought Projects
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="https://moisefr.github.io/Tic_Tac_Toe/">Tic_Tac_Toe Game</a>
-              <a href="/Music_Feels_Project.html">Music and Feelings</a>
-              <a href="#">Link 3</a>
-            </div>
-          </div>
+  </head>
+  <body>
+    
+    <div class="jumbotron">
+      <div class="container-fluid">
+        <h1>
+          Welcome to my personal project page
+      </h1>
+      <p>
+        Please take a look through my different type of projects
+      </p>
+      <div class="dropdown">
+        <button class="dropdown-toggle btn btn-info btn-lg" type="button" id="dropdownMenu" data-toggle="dropdown">
+          Self Thought Projects
+          <span class="caret">
+          </span>
+        </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+          <li role="presentation" class="dropdown-header">
+            Games
+          </li>
+          <li role="presentation">
+            <a role="menuitem" href="https://moisefr.github.io/Tic_Tac_Toe/">
+              Tic_Tac_Toe
+            </a>
+          </li>
+          <li role="presentation">
+            <a role="menuitem" href="#">
+              Coming Soon
+            </a>
+          </li>
+          <li role="presentation" class="divider">
+          </li>
+          <li role="presentation" class="dropdown-header">
+            Wellness
+          </li>
+          <li role="presentation">
+            <a role="menuitem" href="old_index.html">
+              Playlist Suggestion Based on Feels
+            </a>
+          </li>
+          <li role="presentation">
+            <a role="menuitem" href="#">
+              Coming Soon
+            </a>
+          </li>
+          <li role="presentation" class="disabled">
+            <a role="menuitem" href="#">
+              item
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container-fluid">
         <div class="dropdown">
-            <button class="dropbtn">Web Dev Practice Project
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="/Web-Dev-Practice/FlexBox.html">FlexBox Section</a>
-              <a href="https://moisefr.github.io/Fruit-Slice-Project/">Fruit Slice Game with jQuery</a>
-              <a href="#">Twitter BootStrap Demo</a>
-            </div>
-          </div>
-        </div>
-        <div class = "Intro">
-            <h1 class="Welcome"> Welcome to my skills demo site</h1>
-        </div>
-    </body>
-
-  
+        <button class="dropdown-toggle btn btn-info btn-lg " type="button" id="dropdownMenu" data-toggle="dropdown">
+          Self Web Development Practice
+          <span class="caret">
+          </span>
+        </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+          <li role="presentation" class="dropdown-header">
+            Front End
+          </li>
+          <li role="presentation">
+            <a role="menuitem" href="https://moisefr.github.io/Fruit-Slice-Project/">
+              Fruit Slice Game with jQuery
+            </a>
+          </li>
+          <li role="presentation">
+            <a role="menuitem" href="#">
+              Coming Soon
+            </a>
+          </li>
+          <li role="presentation" class="divider">
+          </li>
+          <li role="presentation" class="dropdown-header">
+            Back End
+          </li>
+          <li role="presentation">
+            <a role="menuitem" href="old_index.html">
+              Coming Soon
+            </a>
+          </li>
+          <li role="presentation">
+            <a role="menuitem" href="#">
+              Coming Soon
+            </a>
+          </li>
+          <li role="presentation" class="disabled">
+            <a role="menuitem" href="#">
+              Coming Soon
+            </a>
+          </li>
+        </ul>
+      </div>    
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+  </script>
+  <script src="js/bootstrap.min.js">
+  </script>
+  </body>
 </html>

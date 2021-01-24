@@ -40,7 +40,7 @@ body{
 }
 /*NavBar Styling*/
 .navbar-inverse { background-color: #08082B}
-.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: skyblue}
 .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #10A170}
 .dropdown-menu { background-color: #FFFFFF}
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #428BCA}
@@ -101,7 +101,12 @@ body{
     box-shadow: 5px 3px silver;
 }
 .icons h2,p{
-    color: white;
+    color:  #e5e4e2;
+    text-shadow: 2px 2px 4px #000000;
+       
+}
+.icons h2{
+    text-decoration: underline;
 }
 .icons p{
     font-size: 20px;
@@ -133,3 +138,5 @@ body{
     right: auto;
     height: 200px;
 }
+
+

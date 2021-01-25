@@ -102,8 +102,11 @@ body{
 }
 .icons h2,p{
     color:  #e5e4e2;
-    text-shadow: 2px 2px 4px #000000;
-       
+    text-shadow: 2px 2px 4px blue;      
+}
+#msg{
+    color:  #e5e4e2;
+    text-shadow: 2px 2px 4px #a8073f;      
 }
 .icons h2{
     text-decoration: underline;
